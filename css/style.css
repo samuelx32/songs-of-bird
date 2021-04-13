@@ -1,0 +1,28 @@
+.titulo-cor{
+    color:#0B0B3B;
+    font-family:Roboto,sans-serif;
+}
+
+p{
+    font-size: 16px;
+    font-family: sans-serif,arial;
+}
+
+.imagem-menor{
+    width:300px;
+}
+
+.imagem-maior{
+    width:600px;
+}
+
+.borda {
+    border:black 10px solid;
+    border-radius:10px;
+}
+
+#musica-topo{
+    background-color:silver;
+    margin:0;
+}
+
