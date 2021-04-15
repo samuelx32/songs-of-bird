@@ -1,6 +1,10 @@
-.titulo-cor{
-    color:#0B0B3B;
+body{
+   color:black; 
+}
+
+h1,h2{
     font-family:Roboto,sans-serif;
+    color:#0B0B3B;
 }
 
 p{
@@ -8,12 +12,38 @@ p{
     font-family: sans-serif,arial;
 }
 
-.imagem-menor{
-    width:300px;
+.justificado{
+    text-align: justify;
+}
+
+
+
+#musica-topo{
+    background-color:#424242;
+    text-align: center;
+}
+
+.logo{
+    padding: 1em 2em;
+    color:#F2F2F2;
+}
+
+#menu{
+    padding:0em 2em 1em 2em;
+}
+
+#menu a{
+    color:#BDBDBD;
+    text-decoration: none;
+}
+
+#musica-intro{
+    text-align: center;
 }
 
 .imagem-maior{
     width:600px;
+    margin:1em;
 }
 
 .borda {
@@ -21,8 +51,18 @@ p{
     border-radius:10px;
 }
 
-#musica-topo{
-    background-color:silver;
-    margin:0;
+.texto-intro{
+    padding:1em 2em 2em 2em;
 }
 
+.genero{
+    padding:1em 1em 1em 1em;
+}
+
+.titulo{
+
+}
+
+.imagem-menor{
+    width:300px;
+}
