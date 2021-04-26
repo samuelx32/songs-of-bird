@@ -75,6 +75,10 @@ img{
     text-decoration: none;
 }
 
+#menu a:hover{
+    color:#E6E6E6;
+}
+
 #musica-intro{
     text-align: center;
 }
@@ -119,8 +123,22 @@ img{
     .genero{
         text-align: center;
     }
+
+    .genero h2{
+        margin:0em 0em 0.5em 0em;
+    }
     
 }
 
+
+#rodape{
+    background-color: black;
+    padding:3vw;
+    text-align: center;
+}
+
+#rodape p{
+    color:#BDBDBD;
+}
 
 
