@@ -117,6 +117,18 @@ img{
 
 /*Parte II, Generos, Meio Acima---------------------*/
 
+
+#rodape{
+    background-color: black;
+    padding:3vw;
+    text-align: center;
+}
+
+#rodape p{
+    color:#BDBDBD;
+}
+
+
 @media screen and (max-width:800px){
     .imagem-maior{
         width:80vw;
@@ -132,18 +144,21 @@ img{
     .genero h2{
         margin:0em 0em 0.5em 0em;
     }
+
+    #musica-topo{
+        display:flex;
+        flex-direction: column;
+    }
+
+    #menu{
+        display:flex;
+        flex-direction: column;
+        padding:2vw;
+    }
+    
+    #menu a{
+        padding-top: 2vw;
+    }
+
     
 }
-
-
-#rodape{
-    background-color: black;
-    padding:3vw;
-    text-align: center;
-}
-
-#rodape p{
-    color:#BDBDBD;
-}
-
-
